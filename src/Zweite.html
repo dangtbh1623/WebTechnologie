@@ -2,13 +2,15 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
+<link rel="stylesheet" href="gestaltung.css">
 <title>Zweite Seite</title>
+
 </head>
 <body>
-	<h1 id=1 title="Hallo kitty">
+	<h1 id="2" title="Hallo kitty">
 		<em>Web</em>-Technologie
 	</h1>
-	<p>Guten Tag</p>
+	<p id="gutentag">Guten Tag</p>
 	<p>Mein Name ist Dang</p>
 	<p>Ich kommme aus Vietnam</p>
 
@@ -27,6 +29,44 @@
 			</ul>
 		</li>
 	</ol>
-	<p>Link zum <a href="Erste.html">1.Seite</a></p>
+	<p>
+		Link zum <a href="Erste.html">1.Seite</a>
+	</p>
+	<form action="">
+		<fieldset>
+			<legend>Eingabefeld</legend>
+			<p>
+				Account <br /> <input type="text" name="account" size="40"
+					placeholder="Account" />
+			</p>
+			<p>
+				Password <br /> <input type="password" name="password" size="40"
+					placeholder="Password" />
+			</p>
+			<p>
+				File <br /> <input type="file" name="file" size="40"
+					required="required" />
+			</p>
+			<p>
+				Nachricht <br />
+				<textarea rows="4" cols="40"></textarea>
+			</p>
+			<p>
+				Geschlecht <br /> <select name="geschlecht" size="1">
+					<option value="Male">Male</option>
+					<option value="Female">Female</option>
+					<option value="3D" selected>3D</option>
+				</select>
+			</p>
+		</fieldset>
+		<fieldset>
+			<legend>Auswahlfeld</legend>
+			<p>
+				<input type="submit" value="Send" /> <input type="reset"
+					value="Reset" />
+			</p>
+		</fieldset>
+
+	</form>
 </body>
 </html>
