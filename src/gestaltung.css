@@ -37,9 +37,9 @@ nav:after {
 
 main section{
 	float: left;
-	width: 72%;
+	width: 73%;
 	background-color: #9494b8;
-	margin-right: 2%;
+	margin-right: 1%;
 }
 
 main aside{
@@ -77,6 +77,12 @@ footer .left {
 	float: left;
 	width: 24%;
 	padding-left: 1%;
+}
+
+table{
+	width: 100%;
+border: 1px solid black;
+  border-collapse: collapse;
 }
 
 footer .center {
